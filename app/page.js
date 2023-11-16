@@ -4,9 +4,7 @@ import Header from './pages/navbar/page';
 import Hero from './pages/hero/page';
 import Footer from './pages/footer/page';
 import Dex from './dex/page';
-
-
-
+import SlickCarousel from './pages/slider/page';
 
 export default function Home() {
   return (
@@ -16,6 +14,7 @@ export default function Home() {
       <Hero/>
       <Dex/>
       <Fully/>
+      <SlickCarousel/>
       <Advantage/>
       <Footer/>
      
